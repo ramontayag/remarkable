@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.name        = 'remarkable'
   s.version     = version
   s.description = 'Remarkable: a framework for rspec matchers and macros, with support for I18n.'
+  s.summary = 'Remarkable: a framework for rspec matchers and macros, with support for I18n.'
 
   s.required_ruby_version     = '>= 1.8.7'
   s.required_rubygems_version = ">= 1.3.6"
