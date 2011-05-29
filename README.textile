@@ -27,7 +27,7 @@ from rspec rails matchers to provide I18n. You can also do:
 pre. render_template 'edit', :layout => 'default'
 respond_with 404, :content_type => Mime::XML, :body => /Not found/
 
-== Macro stubs
+h2. Macro stubs
 
 Another cool feature in Remarkable 4.0 is macro stubs, which makes your mocks
 and stubs DRY and easier to maintain. An rspec default scaffold would be:
