@@ -8,7 +8,7 @@ matchers. So just one line is needed to install both:
 
 pre. sudo gem install remarkable_rails
 
-== Matchers & Macros
+h2. Matchers & Macros
 
 The supported matchers and macros are:
 
