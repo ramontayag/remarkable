@@ -8,18 +8,6 @@ matchers. So just one line is needed to install both:
 
 pre. sudo gem install remarkable_rails
 
-If you are using Rails 2.3, you need to have this configuration on your
-config/environments/test.rb:
-
-pre. config.gem "rspec",            :lib => false
-config.gem "rspec-rails",      :lib => false
-config.gem "remarkable_rails", :lib => false
-
-And then require remarkable inside your spec_helper.rb, after "spec/rails":
-
-pre. require 'spec/rails'
-require 'remarkable_rails'
-
 == Matchers & Macros
 
 The supported matchers and macros are:
@@ -33,7 +21,7 @@ The supported matchers and macros are:
 * set_session
 * set_the_flash matchers
 
-In Remarkable 3.0, we also ported and extended redirect to and render template
+In Remarkable 4.0, we also ported and extended redirect to and render template
 from rspec rails matchers to provide I18n. You can also do:
 
 pre. render_template 'edit', :layout => 'default'
@@ -41,7 +29,7 @@ respond_with 404, :content_type => Mime::XML, :body => /Not found/
 
 == Macro stubs
 
-Another cool feature in Remarkable 3.0 is macro stubs, which makes your mocks
+Another cool feature in Remarkable 4.0 is macro stubs, which makes your mocks
 and stubs DRY and easier to maintain. An rspec default scaffold would be:
 
 <pre>
